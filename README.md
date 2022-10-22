@@ -8,4 +8,4 @@ Scrimba Course - https://scrimba.com/learn/htmlandcss
 
 My Twitter - https://twitter.com/ZascuOfficial
 
-The Website Page - (Unknown)
+The Website Page - https://zascuofficial.github.io/Scrimba_Hometown-Proj
