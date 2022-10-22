@@ -78,3 +78,43 @@ img {
   font-style: italic;
   font-size: 17px;
 }
+
+/* Card section of the website */
+
+#card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+  color: #1d3557;
+}
+
+.card-wrapper {
+  width: 50%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  background-color: #457b9d;
+  color: #f1faee;
+  border-bottom: 10px solid #1d3557;
+
+  padding: 50px;
+  margin-block: 100px;
+}
+
+.card-info h4 {
+  font-size: 30px;
+}
+
+.card-info p {
+  font-size: 18px;
+}
+
+.card-info p:last-child {
+  font-weight: 800;
+}
