@@ -1,6 +1,9 @@
+/* Default styles */
+
 body {
   margin: 0;
   text-align: center;
+
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -8,7 +11,6 @@ body {
 
 img {
   width: 200px;
-  border-radius: 5%;
 }
 
 /* Hero section of the website */
@@ -28,19 +30,16 @@ img {
 }
 
 #hero-section h1 {
-  width: auto;
   padding: 10px;
   font-weight: 800;
   background-color: #1d3557;
-  border-radius: 5px;
 }
 
 #hero-section p {
-  width: 50%;
+  width: 60%;
   padding: 20px;
   font-size: 24px;
   background-color: #457b9d;
-  border-radius: 5px;
 }
 
 /* Activities section of the website */
@@ -53,30 +52,20 @@ img {
 
 #activities-section h2 {
   font-size: 30px;
-  margin: 50px;
+  margin: 25px 0;
 }
 
 .activities-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
-  
-  margin-top: 100px;
-  margin-bottom: 50px;
+  gap: 30px;
+
+  margin: 75px 0;
 }
 
 .activity {
-  width: 50%;
-}
-
-.activity h3 {
-  font-size: 18px;
-}
-
-.activity p {
-  font-style: italic;
-  font-size: 17px;
+  flex-basis: 100%;
 }
 
 /* Card section of the website */
@@ -97,7 +86,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 35px;
 
   background-color: #457b9d;
   color: #f1faee;
@@ -111,11 +100,7 @@ img {
   font-size: 30px;
 }
 
-.card-info p {
-  font-size: 18px;
-}
-
-.card-info p:last-child {
+.author-name {
   font-weight: 800;
 }
 
@@ -123,7 +108,13 @@ img {
 
 #footer-section {
   background-color: #1d3557;
-  padding: 20px;
   font-size: 18px;
   font-weight: 800;
+
+  padding: 20px;
+}
+
+#footer-section a {
+  color: #fff;
+  font-style: italic;
 }
