@@ -8,6 +8,4 @@ Once again, I feel like I didn't nail the CSS just right, but some progress was 
 
 Scrimba Course - https://scrimba.com/learn/htmlandcss
 
-My Twitter - https://twitter.com/ZascuOfficial
-
 The Website Page - https://zascuofficial.github.io/Scrimba-Hometown_Proj/
